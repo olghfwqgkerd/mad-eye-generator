@@ -1,13 +1,10 @@
+from itertools import chain
+from moviepy.editor import *
 import imageio
 import numpy
 import math
 import cv2
-
-from itertools import chain
-from moviepy.editor import *
  
-
-
 numNeeded = 10000
 maxRange  = 256
 
